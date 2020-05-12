@@ -3,7 +3,7 @@ const url = require("url");
 const http = require("http");
 const https = require("https");
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 const server = http.createServer();
 
 server.on("listening", listen_handler);
